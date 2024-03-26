@@ -14,6 +14,6 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: kskashish023/assess1@main
+      - uses: lowlighter/metrics@latest
         with:
           token: ${{ secrets.METRICS_TOKEN }}
